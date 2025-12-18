@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/GusMarket/app/components/Hero.tsx"],"sourcesContent":["'use client'\nimport { motion } from 'framer-motion'\n\nexport default function Hero() {\n  return (\n    <section className=\"min-h-screen flex items-center justify-center bg-[#FAF6EE]\">\n      <motion.h1 \n        initial={{ opacity: 0, y: 40 }}\n        animate={{ opacity: 1, y: 0 }}\n        transition={{ duration: 0.8 }}\n        className=\"text-6xl font-serif text-green-900\">\n        Гусь Маркет\n      </motion.h1>\n    </section>\n  )\n}\n"],"names":[],"mappings":";;;;;AACA;AADA;;;AAGe,SAAS;IACtB,qBACE,6LAAC;QAAQ,WAAU;kBACjB,cAAA,6LAAC,uMAAM,CAAC,EAAE;YACR,SAAS;gBAAE,SAAS;gBAAG,GAAG;YAAG;YAC7B,SAAS;gBAAE,SAAS;gBAAG,GAAG;YAAE;YAC5B,YAAY;gBAAE,UAAU;YAAI;YAC5B,WAAU;sBAAqC;;;;;;;;;;;AAKvD;KAZwB"}}]
+}

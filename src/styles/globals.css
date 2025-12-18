@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-base leading-relaxed text-text-dark bg-beige-light overflow-x-hidden;
+  }
+  
+  h1, h2, h3, h4 {
+    @apply font-sans font-semibold leading-tight;
+  }
+
+  /* Адаптивные размеры для заголовков */
+  h1 { @apply text-5xl sm:text-6xl lg:text-7xl xl:text-8xl; } 
+  h2 { @apply text-4xl lg:text-5xl; }
+  h3 { @apply text-2xl; }
+
+  /* Базовый отступ для секций */
+  section {
+    @apply py-20 lg:py-32;
+  }
+
+  /* Стили для кнопок и ссылок (для удобства) */
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 font-medium text-white bg-green-main rounded-lg shadow-medium transition duration-300 hover:bg-green-dark hover:shadow-strong;
+  }
+ 
+}
+
+
+@layer components {
+  .nav-link {
+    @apply relative text-text-dark font-medium transition duration-300 pb-1;
+  }
+
+  /* Создаем линию через псевдоэлемент */
+  .nav-link::after {
+    content: '';
+    @apply absolute left-0 bottom-0 w-full h-[2px] bg-green-main;
+    
+    /* Начальное состояние: линия сжата в ноль (scale-x-0) */
+    transform: scaleX(0);
+    /* Точка, от которой пойдет рост (left - слева, center - из центра) */
+    transform-origin: bottom right;
+    transition: transform 0.4s ease-out;
+  }
+
+  /* Состояние при наведении */
+  .nav-link:hover::after {
+    /* Линия раскрывается до полной ширины */
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+}
