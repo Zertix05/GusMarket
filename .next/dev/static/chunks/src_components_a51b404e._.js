@@ -151,27 +151,27 @@ var _s = __turbopack_context__.k.signature();
 ;
 const slides = [
     {
-        src: '/images/mainCarousel/1.jpg',
+        src: '/images/mainCarousell/1.jpg',
         title: 'Фермерские продукты'
     },
     {
-        src: '/images/mainCarousel/2.jpg',
+        src: '/images/mainCarousell/2.jpg',
         title: 'Фермерские продукты'
     },
     {
-        src: '/images/mainCarousel/3.jpg',
+        src: '/images/mainCarousell/3.jpg',
         title: 'Фермерские продукты'
     },
     {
-        src: '/images/mainCarousel/4.jpg',
+        src: '/images/mainCarousell/4.jpg',
         title: 'Фермерские продукты'
     },
     {
-        src: '/images/mainCarousel/5.jpg',
+        src: '/images/mainCarousell/5.jpg',
         title: 'Фермерские продукты'
     },
     {
-        src: '/images/mainCarousel/6.jpg',
+        src: '/images/mainCarousell/6.jpg',
         title: 'Фермерские продукты'
     }
 ];
