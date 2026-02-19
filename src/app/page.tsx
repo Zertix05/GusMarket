@@ -9,9 +9,10 @@ import Location from '../components/Location';
 import Footer from '../components/Footer';
 import Reviews from '../components/Reviews';
 import Benefits from '../components/Benefits';
-import News from '../components/News';
 import FAQR from '../components/FAQR';
 import Farmers from '../components/Farmers';
+import CommunitySection from '../components/Community';
+import Partners from '../components/Partners';
 
   export default function Home() {
       // Данные для секции FAQ
@@ -27,12 +28,13 @@ import Farmers from '../components/Farmers';
               {/* === 1. HERO SECTION === */}
              <Hero/>
              <About/>
+             <CommunitySection/>
              <Benefits/>
              <Product/>
              <Location/>
              <Reviews/>
-             <News/>
              <Farmers/>
+             <Partners/>
              <FAQR/>
              <Footer/>
           </>

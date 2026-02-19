@@ -32,7 +32,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ru" className={`${manrope.variable} ${cormorant.variable}`}>  
-   
+    <head>
+     <meta name="google-site-verification" content="SH70XBLQiwSAVpd3U8bj9Ez2XdqmpJLFsY3wdLUUzCs" />
+     </head>
       <body>
         <Header/>
         <main>{children}</main>

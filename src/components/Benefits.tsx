@@ -1,37 +1,45 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import {
+  Leaf,
+  CheckCircle,
+  MapPin,
+  Sparkles,
+  Handshake,
+  Users,
+} from "lucide-react";
 
 const benefits = [
   {
-    icon: "🌿",
-    title: "Свежесть и качество",
-    text: "Самая свежая фермерская продукция, изготовленная из лучших ингредиентов. Каждый товар — это труд настоящих мастеров."
+    icon: Leaf,
+    title: "Настоящий вкус, качество и доверие",
+    text: "Для нас важно всё: вкус, состав, свежесть и происхождение продукта. Мы работаем с фермерами и локальными производителями, которые давно и осознанно занимаются своим делом."
   },
   {
-    icon: "✓",
-    title: "Безопасность и контроль",
-    text: "Вся продукция проходит санитарный контроль. Мы работаем только с проверенными фермерами, которым доверяем сами."
+    icon: CheckCircle,
+    title: "Продукты напрямую от производителя",
+    text: "На Гусь Маркете вы покупаете продукт у того, кто его создал. Многие позиции — авторские и не имеют аналогов в массовой продаже."
   },
   {
-    icon: "📍",
-    title: "Удобные локации",
-    text: "Два рынка в самом центре Минска с максимальной проходимостью. Легко добраться, легко выбрать."
+    icon: Sparkles,
+    title: "Опыт, а не просто покупка",
+    text: "Это возможность попробовать продукцию перед покупкой, пообщаться с фермерами и почувствовать атмосферу живого пространства."
   },
   {
-    icon: "🎨",
-    title: "Яркая атмосфера",
-    text: "Красивые прилавки, продуманная эстетика и дружелюбная атмосфера делают каждую покупку приятной."
+    icon: MapPin,
+    title: "Фермерские продукты в городском формате",
+    text: "Мы делаем фермерскую продукцию доступной — без поездок за город и сложного поиска."
   },
   {
-    icon: "💰",
-    title: "Честные цены",
-    text: "Прямые поставки от фермеров без посредников. Вы платите за качество, а не за накрутки."
+    icon: Handshake,
+    title: "Ответственное отношение к делу",
+    text: "Мы помогаем донести ценность фермерской продукции и развиваем культуру осознанного потребления."
   },
   {
-    icon: "🤝",
-    title: "Доверие и истории",
-    text: "Каждый фермер — это живой человек с историей. Вы знаете, кто вырастил ваш сыр и испёк хлеб."
+    icon: Users,
+    title: "Современное пространство с философией",
+    text: "Гусь Маркет — это честность, открытость и уважение к каждому гостю."
   }
 ];
 
@@ -46,7 +54,7 @@ const Benefits = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="font-['Cormorant_Garamond',serif] text-5xl md:text-6xl text-[#2D5016] font-semibold mb-6"
+            className="text-4xl lg:text-5xl md:text-6xl text-[#2D5016] font-semibold mb-6"
           >
             Почему выбирают Гусь Маркет?
           </motion.h2>
@@ -77,9 +85,10 @@ const Benefits = () => {
               <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#4A7C23] scale-x-0 group-hover:scale-x-100 transition-transform duration-500 rounded-t-[32px] origin-left" />
 
               {/* Иконка */}
-              <div className="w-16 h-16 bg-[#E8F0E0] text-[#4A7C23] rounded-2xl flex items-center justify-center text-3xl mb-8 group-hover:bg-[#4A7C23] group-hover:text-white transition-colors duration-300">
-                {item.icon}
+              <div className="w-16 h-16 bg-[#E8F0E0] text-[#4A7C23] rounded-2xl flex items-center justify-center mb-8 group-hover:bg-[#4A7C23] group-hover:text-white transition-colors duration-300">
+              <item.icon size={32} strokeWidth={1.8} />
               </div>
+
 
               {/* Текст */}
               <h3 className="text-xl font-bold text-[#1A1A1A] mb-4 group-hover:text-[#2D5016] transition-colors">

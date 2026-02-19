@@ -98,43 +98,43 @@ const Product = ()=>{
     const productData = [
         {
             title: "Мясо и рыба",
-            description: "Говядина, свинина, птица и свежая рыба прямо с фермерских хозяйств.",
-            image: "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&q=80&w=500"
+            description: "Копченые мясо и рыба, сало, колбасы, мясные чипсы, джерки",
+            image: "/images/meat.jpg"
         },
         {
             title: "Сыры",
-            description: "Козьи и коровьи: твёрдые, мягкие, с плесенью по старинным рецептам.",
-            image: "https://images.unsplash.com/photo-1485962391945-428e83b495f6?auto=format&fit=crop&q=80&w=500"
+            description: " Козьи и коровьи, твёрдые и мягкие, молодые и выдержанные, с плесенью",
+            image: "/images/cheese.jpg"
         },
         {
             title: "Хлеб и выпечка",
-            description: "Хлеб на закваске, который пахнет домашним уютом и детством.",
-            image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=500"
+            description: "Хлеб на закваске, безглютеновый хлеб, печенья, пирожки, булочки",
+            image: "/images/bread.jpg"
         },
         {
-            title: "Деликатесы",
-            description: "Мясные деликатесы современного приготовления высокого качества.",
-            image: "https://images.unsplash.com/photo-1544132411-174138283fc0?auto=format&fit=crop&q=80&w=500"
+            title: "Су-вид продукция",
+            description: "Деликатесы современного приготовления высокого качества",
+            image: "/images/meat_dishes.jpg"
         },
         {
-            title: "Мед и напитки",
-            description: "Натуральный мед, медовые напитки и домашний квас.",
-            image: "https://images.unsplash.com/photo-1589733955941-5eeaf752f6dd?auto=format&fit=crop&q=80&w=500"
+            title: "Мед и медовые напитки",
+            description: " Натуральный мёд, медовые напитки, квас, сурица",
+            image: "/images/honey.jpg"
         },
         {
             title: "Сладости",
-            description: "Зефир, моти, пряники и десерты без капли химии.",
-            image: "https://images.unsplash.com/photo-1559181567-c3190ca9959b?auto=format&fit=crop&q=80&w=500"
+            description: " Моти, макароны, пряники, торты, орешки и трубочки со сгущенкой, а также эко-сладости ",
+            image: "/images/cookies.jpg"
         },
         {
             title: "Соусы и заготовки",
-            description: "Домашние соусы, варенья, специи и бабушкины заготовки.",
-            image: "https://images.unsplash.com/photo-1590779033100-9f60705a2f3b?auto=format&fit=crop&q=80&w=500"
+            description: " Домашние соусы, песто, варенье, закатки",
+            image: "/images/products.jpg"
         },
         {
-            title: "Овощи и зелень",
-            description: "Сезонные овощи и свежая зелень прямо с грядки.",
-            image: "https://images.unsplash.com/photo-1566385273219-555114073bd7?auto=format&fit=crop&q=80&w=500"
+            title: "Чаи, травы, бады",
+            description: "Травяные лечебные чаи, бады, специи, продукты для здоровья ",
+            image: "/images/tea.jpg"
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -165,7 +165,7 @@ const Product = ()=>{
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-green-pale/70 text-lg",
-                                children: "Более 17 фермеров каждый уикенд привозят свежую продукцию, выращенную с любовью."
+                                children: "Каждый уикенд фермеры привозят свежую продукцию, выращенную с любовью."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Product.tsx",
                                 lineNumber: 58,
@@ -218,9 +218,86 @@ const __TURBOPACK__default__export__ = Product;
 }),
 "[project]/src/components/Hero.tsx [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
-const e = new Error("Could not parse module '[project]/src/components/Hero.tsx'\n\nExpected '</', got '='");
-e.code = 'MODULE_UNPARSABLE';
-throw e;
+const { jsxDEV: _jsxDEV } = __turbopack_context__.r("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+{}/*#__PURE__*/ _jsxDEV("div", {
+    className: "relative h-[650px] flex items-center justify-center",
+    children: [
+        /*#__PURE__*/ _jsxDEV("div", {
+            className: "absolute w-[90%] h-[85%] bg-[#F5EBD7]/50 rounded-[4rem]"
+        }, void 0, false, {
+            fileName: "[project]/src/components/Hero.tsx",
+            lineNumber: 3,
+            columnNumber: 3
+        }, /*TURBOPACK member replacement*/ __turbopack_context__.e),
+        /*#__PURE__*/ _jsxDEV("div", {
+            className: "relative w-full max-w-[480px] h-[480px] md:h-[550px] overflow-hidden z-10 rounded-[3rem]",
+            children: /*#__PURE__*/ _jsxDEV(AnimatePresence, {
+                mode: "wait",
+                children: /*#__PURE__*/ _jsxDEV(motion.div, {
+                    initial: {
+                        opacity: 0,
+                        x: 80
+                    },
+                    animate: {
+                        opacity: 1,
+                        x: 0
+                    },
+                    exit: {
+                        opacity: 0,
+                        x: -80
+                    },
+                    transition: {
+                        duration: 0.6,
+                        ease: 'easeInOut'
+                    },
+                    className: "absolute inset-0",
+                    children: /*#__PURE__*/ _jsxDEV(Image, {
+                        src: slides[index].src,
+                        alt: slides[index].title,
+                        fill: true,
+                        className: "object-cover w-full h-full rounded-[3rem]",
+                        priority: true
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/Hero.tsx",
+                        lineNumber: 15,
+                        columnNumber: 9
+                    }, /*TURBOPACK member replacement*/ __turbopack_context__.e)
+                }, index, false, {
+                    fileName: "[project]/src/components/Hero.tsx",
+                    lineNumber: 7,
+                    columnNumber: 7
+                }, /*TURBOPACK member replacement*/ __turbopack_context__.e)
+            }, void 0, false, {
+                fileName: "[project]/src/components/Hero.tsx",
+                lineNumber: 6,
+                columnNumber: 5
+            }, /*TURBOPACK member replacement*/ __turbopack_context__.e)
+        }, void 0, false, {
+            fileName: "[project]/src/components/Hero.tsx",
+            lineNumber: 5,
+            columnNumber: 3
+        }, /*TURBOPACK member replacement*/ __turbopack_context__.e),
+        /*#__PURE__*/ _jsxDEV("div", {
+            className: "absolute bottom-10 flex gap-3 z-20",
+            children: slides.map((_, i)=>/*#__PURE__*/ _jsxDEV("button", {
+                    onClick: ()=>setIndex(i),
+                    className: `w-3 h-3 rounded-full transition-all ${i === index ? 'bg-green-main scale-125' : 'bg-green-main/30'}`
+                }, i, false, {
+                    fileName: "[project]/src/components/Hero.tsx",
+                    lineNumber: 29,
+                    columnNumber: 7
+                }, /*TURBOPACK member replacement*/ __turbopack_context__.e))
+        }, void 0, false, {
+            fileName: "[project]/src/components/Hero.tsx",
+            lineNumber: 27,
+            columnNumber: 3
+        }, /*TURBOPACK member replacement*/ __turbopack_context__.e)
+    ]
+}, void 0, true, {
+    fileName: "[project]/src/components/Hero.tsx",
+    lineNumber: 2,
+    columnNumber: 1
+}, /*TURBOPACK member replacement*/ __turbopack_context__.e);
 }),
 "[project]/src/components/About.tsx [app-rsc] (client reference proxy) <module evaluation>", ((__turbopack_context__) => {
 "use strict";

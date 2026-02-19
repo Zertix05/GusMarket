@@ -62,16 +62,11 @@
           "search": ""
         }
       ],
-      "remotePatterns": [
-        {
-          "protocol": "https",
-          "hostname": "images.unsplash.com"
-        }
-      ],
+      "remotePatterns": [],
       "qualities": [
         75
       ],
-      "unoptimized": false
+      "unoptimized": true
     },
     "devIndicators": {
       "position": "bottom-left"
@@ -96,6 +91,7 @@
     "compiler": {},
     "expireTime": 31536000,
     "staticPageGenerationTimeout": 60,
+    "output": "export",
     "modularizeImports": {
       "@mui/icons-material": {
         "transform": "@mui/icons-material/{{member}}"

@@ -208,7 +208,7 @@ const About = ()=>{
                                 },
                                 className: "absolute -bottom-10 -right-10 w-3/5 aspect-square rounded-[2rem] overflow-hidden border-[6px] border-green-main shadow-xl z-20 hidden md:block",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                    src: "https://images.unsplash.com/photo-1516594798947-e65505dbb29d?q=80&w=800",
+                                    src: "/images/second_mains.jpg",
                                     alt: "Наши продукты",
                                     fill: true,
                                     className: "object-cover"
@@ -545,187 +545,289 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+// Импортируем иконки карты, навигации и стрелку
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/map-pin.js [app-client] (ecmascript) <export default as MapPin>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$up$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowUpRight$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/arrow-up-right.js [app-client] (ecmascript) <export default as ArrowUpRight>");
 'use client';
 ;
 ;
+;
 const Location = ()=>{
+    // Ссылки на Яндекс Карты для обеих локаций
+    const chervenskyUrl = "https://yandex.by/maps/-/CLwxbDI5"; // Замените на точную ссылку ТРЦ Червенский
+    const chizhovkaUrl = "https://yandex.by/maps/-/CLwxz-2O"; // Замените на точную ссылку ТЦ Чижовка Green
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "locations",
-        className: "py-24 bg-beige-light",
+        className: "py-24 bg-[#FAF6EE]",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container mx-auto px-6 max-w-7xl",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "bg-white rounded-[3rem] shadow-strong overflow-hidden flex flex-col lg:flex-row border border-beige-main",
+                className: "bg-white rounded-[3rem] shadow-xl overflow-hidden flex flex-col lg:flex-row border border-[#F5EBD7]",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "lg:w-1/2 p-10 lg:p-20 flex flex-col justify-center",
                         children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].span, {
+                                initial: {
+                                    opacity: 0,
+                                    y: 10
+                                },
+                                whileInView: {
+                                    opacity: 1,
+                                    y: 0
+                                },
+                                viewport: {
+                                    once: true
+                                },
+                                className: "text-[#C4A574] font-bold uppercase tracking-widest text-sm mb-4",
+                                children: "Наши локации"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/Location.tsx",
+                                lineNumber: 20,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-green-dark mb-6 tracking-tight",
+                                className: "text-[#2D5016] text-4xl lg:text-5xl font-bold mb-10 tracking-tight",
                                 children: "Ждем вас в гости"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Location.tsx",
-                                lineNumber: 13,
+                                lineNumber: 29,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "space-y-8",
+                                className: "space-y-10",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex gap-5",
+                                        className: "flex gap-6",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "text-3xl",
-                                                children: "📍"
+                                                className: "flex-shrink-0 w-14 h-14 bg-[#E8F0E0] rounded-2xl flex items-center justify-center text-[#4A7C23]",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
+                                                    size: 28
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/Location.tsx",
+                                                    lineNumber: 37,
+                                                    columnNumber: 19
+                                                }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Location.tsx",
-                                                lineNumber: 16,
+                                                lineNumber: 36,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                                        className: "font-bold text-green-dark mb-1",
-                                                        children: "Наш адрес"
+                                                        className: "font-bold text-[#2D5016] text-xl mb-1",
+                                                        children: "ТРЦ Червенский"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Location.tsx",
-                                                        lineNumber: 18,
+                                                        lineNumber: 40,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-text-medium",
+                                                        className: "text-gray-600 leading-relaxed",
                                                         children: [
-                                                            "г. Минск, пр-т Победителей, 110",
+                                                            "г. Минск, ул. Маяковского, 6",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                 fileName: "[project]/src/components/Location.tsx",
-                                                                lineNumber: 19,
-                                                                columnNumber: 82
+                                                                lineNumber: 42,
+                                                                columnNumber: 49
                                                             }, ("TURBOPACK compile-time value", void 0)),
-                                                            "(напротив Арена-Сити)"
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                className: "text-sm font-medium text-[#4A7C23]",
+                                                                children: "Пт, Сб, Вс: 12:00 – 20:00"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/Location.tsx",
+                                                                lineNumber: 43,
+                                                                columnNumber: 21
+                                                            }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/Location.tsx",
-                                                        lineNumber: 19,
+                                                        lineNumber: 41,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Location.tsx",
-                                                lineNumber: 17,
+                                                lineNumber: 39,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Location.tsx",
-                                        lineNumber: 15,
+                                        lineNumber: 35,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex gap-5",
+                                        className: "flex gap-6",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "text-3xl",
-                                                children: "🚗"
+                                                className: "flex-shrink-0 w-14 h-14 bg-[#E8F0E0] rounded-2xl flex items-center justify-center text-[#4A7C23]",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
+                                                    size: 28
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/Location.tsx",
+                                                    lineNumber: 51,
+                                                    columnNumber: 19
+                                                }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Location.tsx",
-                                                lineNumber: 23,
+                                                lineNumber: 50,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                                        className: "font-bold text-green-dark mb-1",
-                                                        children: "Парковка"
+                                                        className: "font-bold text-[#2D5016] text-xl mb-1",
+                                                        children: "ТЦ Чижовка Green"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Location.tsx",
-                                                        lineNumber: 25,
+                                                        lineNumber: 54,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-text-medium",
+                                                        className: "text-gray-600 leading-relaxed",
                                                         children: [
-                                                            "Бесплатная парковка для посетителей",
+                                                            "г. Минск, ул. Уборевича, 176",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                 fileName: "[project]/src/components/Location.tsx",
-                                                                lineNumber: 26,
-                                                                columnNumber: 86
+                                                                lineNumber: 56,
+                                                                columnNumber: 49
                                                             }, ("TURBOPACK compile-time value", void 0)),
-                                                            "прямо перед входом."
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                className: "text-sm font-medium text-[#4A7C23]",
+                                                                children: "Сб, Вс: 11:00 – 19:00"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/Location.tsx",
+                                                                lineNumber: 57,
+                                                                columnNumber: 21
+                                                            }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/Location.tsx",
-                                                        lineNumber: 26,
+                                                        lineNumber: 55,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Location.tsx",
-                                                lineNumber: 24,
+                                                lineNumber: 53,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Location.tsx",
-                                        lineNumber: 22,
+                                        lineNumber: 49,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Location.tsx",
-                                lineNumber: 14,
+                                lineNumber: 33,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
-                                whileHover: {
-                                    scale: 1.02
-                                },
-                                whileTap: {
-                                    scale: 0.98
-                                },
-                                className: "mt-12 btn-primary w-fit px-10 rounded-2xl",
-                                children: "Открыть в Яндекс Картах"
-                            }, void 0, false, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex flex-col sm:flex-row gap-4 mt-12",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
+                                        href: chervenskyUrl,
+                                        target: "_blank",
+                                        rel: "noopener noreferrer",
+                                        whileHover: {
+                                            scale: 1.02,
+                                            y: -2
+                                        },
+                                        whileTap: {
+                                            scale: 0.98
+                                        },
+                                        className: "flex items-center justify-center gap-2 bg-[#4A7C23] text-white font-bold py-4 px-8 rounded-2xl shadow-lg shadow-[#4A7C23]/20 hover:bg-[#2D5016] transition-all text-sm",
+                                        children: [
+                                            "Червенский",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$up$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowUpRight$3e$__["ArrowUpRight"], {
+                                                size: 18
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/Location.tsx",
+                                                lineNumber: 73,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/Location.tsx",
+                                        lineNumber: 64,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
+                                        href: chizhovkaUrl,
+                                        target: "_blank",
+                                        rel: "noopener noreferrer",
+                                        whileHover: {
+                                            scale: 1.02,
+                                            y: -2
+                                        },
+                                        whileTap: {
+                                            scale: 0.98
+                                        },
+                                        className: "flex items-center justify-center gap-2 bg-white border-2 border-[#4A7C23] text-[#4A7C23] font-bold py-4 px-8 rounded-2xl hover:bg-[#E8F0E0] transition-all text-sm",
+                                        children: [
+                                            "Чижовка Green",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$up$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowUpRight$3e$__["ArrowUpRight"], {
+                                                size: 18
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/Location.tsx",
+                                                lineNumber: 85,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/Location.tsx",
+                                        lineNumber: 76,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
                                 fileName: "[project]/src/components/Location.tsx",
-                                lineNumber: 31,
+                                lineNumber: 63,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Location.tsx",
-                        lineNumber: 12,
+                        lineNumber: 19,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "lg:w-1/2 bg-beige-main min-h-[400px] relative grayscale hover:grayscale-0 transition-all duration-700",
+                        className: "lg:w-1/2 bg-[#F5EBD7] min-h-[500px] relative transition-all duration-1000",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
-                            src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2348.653654407!2d27.4727!3d53.93!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTPCsDU1JzQ4LjAiTiAyN8KwMjgnMjEuNyJF!5e0!3m2!1sru!2sby!4v1630000000000!5m2!1sru!2sby",
+                            // Координаты ТРЦ Червенский с зумом 17 (уличный уровень)
+                            src: "https://yandex.ru/map-widget/v1/?ll=27.568428%2C53.886022&z=17&mode=search&ol=biz&oid=164604564998",
                             className: "absolute inset-0 w-full h-full border-0",
                             allowFullScreen: true,
                             loading: "lazy"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Location.tsx",
-                            lineNumber: 42,
+                            lineNumber: 92,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/src/components/Location.tsx",
-                        lineNumber: 41,
+                        lineNumber: 91,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Location.tsx",
-                lineNumber: 9,
+                lineNumber: 16,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false, {
             fileName: "[project]/src/components/Location.tsx",
-            lineNumber: 8,
+            lineNumber: 15,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/src/components/Location.tsx",
-        lineNumber: 7,
+        lineNumber: 14,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -789,7 +891,7 @@ const Footer = ()=>{
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-white/70 text-[15.2px] leading-[1.8] max-w-[300px]",
-                                    children: "Фермерский рынок в центре Минска. Свежая продукция, атмосфера праздника, поддержка белорусских производителей."
+                                    children: "Фермерский рынок в Минске. Свежая продукция, атмосфера праздника, поддержка белорусских производителей."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Footer.tsx",
                                     lineNumber: 24,
@@ -836,6 +938,10 @@ const Footer = ()=>{
                                             href: '#about'
                                         },
                                         {
+                                            name: 'Фермеры и производители',
+                                            href: '#manufacters'
+                                        },
+                                        {
                                             name: 'Продукция',
                                             href: '#products'
                                         },
@@ -850,6 +956,10 @@ const Footer = ()=>{
                                         {
                                             name: 'Фермерам',
                                             href: '#farmers'
+                                        },
+                                        {
+                                            name: 'Партнерам',
+                                            href: '#partners'
                                         }
                                     ].map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -858,12 +968,12 @@ const Footer = ()=>{
                                                 children: link.name
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Footer.tsx",
-                                                lineNumber: 50,
+                                                lineNumber: 52,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, link.name, false, {
                                             fileName: "[project]/src/components/Footer.tsx",
-                                            lineNumber: 49,
+                                            lineNumber: 51,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)))
                                 }, void 0, false, {
@@ -884,7 +994,7 @@ const Footer = ()=>{
                                     children: "Локации"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Footer.tsx",
-                                    lineNumber: 63,
+                                    lineNumber: 65,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -894,34 +1004,6 @@ const Footer = ()=>{
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-white/70 text-[15.2px]",
                                                 children: "ТРЦ «Червенский»"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/Footer.tsx",
-                                                lineNumber: 65,
-                                                columnNumber: 19
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/Footer.tsx",
-                                            lineNumber: 65,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "text-white/70 text-[15.2px]",
-                                                children: "ул. Маяковского, 6"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/Footer.tsx",
-                                                lineNumber: 66,
-                                                columnNumber: 19
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/Footer.tsx",
-                                            lineNumber: 66,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "text-white/70 text-[15.2px]",
-                                                children: "ТЦ «Чижовка Green»"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Footer.tsx",
                                                 lineNumber: 67,
@@ -935,7 +1017,7 @@ const Footer = ()=>{
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-white/70 text-[15.2px]",
-                                                children: "ул. Уборевича, 176"
+                                                children: "ул. Маяковского, 6"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Footer.tsx",
                                                 lineNumber: 68,
@@ -945,17 +1027,45 @@ const Footer = ()=>{
                                             fileName: "[project]/src/components/Footer.tsx",
                                             lineNumber: 68,
                                             columnNumber: 15
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "text-white/70 text-[15.2px]",
+                                                children: "ТЦ «Чижовка Green»"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/Footer.tsx",
+                                                lineNumber: 69,
+                                                columnNumber: 19
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/Footer.tsx",
+                                            lineNumber: 69,
+                                            columnNumber: 15
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "text-white/70 text-[15.2px]",
+                                                children: "ул. Уборевича, 176"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/Footer.tsx",
+                                                lineNumber: 70,
+                                                columnNumber: 19
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/Footer.tsx",
+                                            lineNumber: 70,
+                                            columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Footer.tsx",
-                                    lineNumber: 64,
+                                    lineNumber: 66,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Footer.tsx",
-                            lineNumber: 62,
+                            lineNumber: 64,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -965,7 +1075,7 @@ const Footer = ()=>{
                                     children: "Контакты"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Footer.tsx",
-                                    lineNumber: 74,
+                                    lineNumber: 76,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -979,20 +1089,52 @@ const Footer = ()=>{
                                                     children: "📷"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Footer.tsx",
-                                                    lineNumber: 77,
+                                                    lineNumber: 79,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                    href: "https://instagram.com/gusmarket.by",
+                                                    target: "_blank",
+                                                    rel: "noopener noreferrer",
+                                                    className: "hover:text-[#6B9B3C] transition-colors",
                                                     children: "@gusmarket.by"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Footer.tsx",
-                                                    lineNumber: 78,
+                                                    lineNumber: 80,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Footer.tsx",
-                                            lineNumber: 76,
+                                            lineNumber: 78,
+                                            columnNumber: 15
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "flex items-center gap-3 text-white/70 text-[15.2px]",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    className: "text-xl",
+                                                    children: "✈️"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/Footer.tsx",
+                                                    lineNumber: 91,
+                                                    columnNumber: 17
+                                                }, ("TURBOPACK compile-time value", void 0)),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                    href: "https://t.me/gusmarket_by",
+                                                    target: "_blank",
+                                                    rel: "noopener noreferrer",
+                                                    className: "hover:text-[#6B9B3C] transition-colors",
+                                                    children: "t.me/gusmarket_by"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/Footer.tsx",
+                                                    lineNumber: 92,
+                                                    columnNumber: 17
+                                                }, ("TURBOPACK compile-time value", void 0))
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/components/Footer.tsx",
+                                            lineNumber: 90,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1003,32 +1145,32 @@ const Footer = ()=>{
                                                     children: "🕐"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Footer.tsx",
-                                                    lineNumber: 81,
+                                                    lineNumber: 103,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: "Пт, Сб, Вс: 12:00–20:00"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Footer.tsx",
-                                                    lineNumber: 82,
+                                                    lineNumber: 104,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Footer.tsx",
-                                            lineNumber: 80,
+                                            lineNumber: 102,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Footer.tsx",
-                                    lineNumber: 75,
+                                    lineNumber: 77,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Footer.tsx",
-                            lineNumber: 73,
+                            lineNumber: 75,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
@@ -1045,7 +1187,7 @@ const Footer = ()=>{
                             children: "© 2024 Гусь Маркет. Все права защищены."
                         }, void 0, false, {
                             fileName: "[project]/src/components/Footer.tsx",
-                            lineNumber: 90,
+                            lineNumber: 113,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1057,7 +1199,7 @@ const Footer = ()=>{
                                     children: "Публичный договор"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Footer.tsx",
-                                    lineNumber: 94,
+                                    lineNumber: 117,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1066,19 +1208,19 @@ const Footer = ()=>{
                                     children: "Политика конфиденциальности"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Footer.tsx",
-                                    lineNumber: 97,
+                                    lineNumber: 120,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Footer.tsx",
-                            lineNumber: 93,
+                            lineNumber: 116,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Footer.tsx",
-                    lineNumber: 89,
+                    lineNumber: 112,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
@@ -1142,44 +1284,28 @@ const Reviews = ()=>{
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "text-center max-w-2xl mx-auto mb-16",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].h2, {
-                            initial: {
-                                opacity: 0,
-                                y: 20
-                            },
-                            whileInView: {
-                                opacity: 1,
-                                y: 0
-                            },
-                            transition: {
-                                delay: 0.2
-                            },
-                            className: "text-[#2D5016] text-4xl md:text-5xl font-display mb-6",
-                            children: "Что говорят нащи покупатели?"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/Reviews.tsx",
-                            lineNumber: 35,
-                            columnNumber: 11
-                        }, ("TURBOPACK compile-time value", void 0)),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].span, {
-                            initial: {
-                                opacity: 0
-                            },
-                            whileInView: {
-                                opacity: 1
-                            },
-                            className: "tracking-[0.1em] text-md mb-4 block",
-                            children: "Более 10000 человек  уже оценили качество и атмосферу Гусь Маркет"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/Reviews.tsx",
-                            lineNumber: 43,
-                            columnNumber: 11
-                        }, ("TURBOPACK compile-time value", void 0))
-                    ]
-                }, void 0, true, {
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].h2, {
+                        initial: {
+                            opacity: 0,
+                            y: 20
+                        },
+                        whileInView: {
+                            opacity: 1,
+                            y: 0
+                        },
+                        transition: {
+                            delay: 0.2
+                        },
+                        className: "text-[#2D5016] text-4xl md:text-5xl font-display mb-6",
+                        children: "Что говорят нащи покупатели?"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/Reviews.tsx",
+                        lineNumber: 34,
+                        columnNumber: 11
+                    }, ("TURBOPACK compile-time value", void 0))
+                }, void 0, false, {
                     fileName: "[project]/src/components/Reviews.tsx",
-                    lineNumber: 33,
+                    lineNumber: 32,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1206,7 +1332,7 @@ const Reviews = ()=>{
                                     children: "“"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Reviews.tsx",
-                                    lineNumber: 64,
+                                    lineNumber: 56,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1218,12 +1344,12 @@ const Reviews = ()=>{
                                             children: "★"
                                         }, i, false, {
                                             fileName: "[project]/src/components/Reviews.tsx",
-                                            lineNumber: 71,
+                                            lineNumber: 63,
                                             columnNumber: 19
                                         }, ("TURBOPACK compile-time value", void 0)))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Reviews.tsx",
-                                    lineNumber: 69,
+                                    lineNumber: 61,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1235,7 +1361,7 @@ const Reviews = ()=>{
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Reviews.tsx",
-                                    lineNumber: 75,
+                                    lineNumber: 67,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1246,7 +1372,7 @@ const Reviews = ()=>{
                                             children: item.name[0]
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Reviews.tsx",
-                                            lineNumber: 80,
+                                            lineNumber: 72,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1256,7 +1382,7 @@ const Reviews = ()=>{
                                                     children: item.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Reviews.tsx",
-                                                    lineNumber: 84,
+                                                    lineNumber: 76,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1264,30 +1390,30 @@ const Reviews = ()=>{
                                                     children: item.role
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Reviews.tsx",
-                                                    lineNumber: 87,
+                                                    lineNumber: 79,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Reviews.tsx",
-                                            lineNumber: 83,
+                                            lineNumber: 75,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Reviews.tsx",
-                                    lineNumber: 79,
+                                    lineNumber: 71,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, idx, true, {
                             fileName: "[project]/src/components/Reviews.tsx",
-                            lineNumber: 55,
+                            lineNumber: 47,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0)))
                 }, void 0, false, {
                     fileName: "[project]/src/components/Reviews.tsx",
-                    lineNumber: 53,
+                    lineNumber: 45,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1312,29 +1438,29 @@ const Reviews = ()=>{
                                 children: "→"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Reviews.tsx",
-                                lineNumber: 108,
+                                lineNumber: 100,
                                 columnNumber: 39
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Reviews.tsx",
-                        lineNumber: 103,
+                        lineNumber: 95,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/src/components/Reviews.tsx",
-                    lineNumber: 97,
+                    lineNumber: 89,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Reviews.tsx",
-            lineNumber: 30,
+            lineNumber: 29,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/src/components/Reviews.tsx",
-        lineNumber: 29,
+        lineNumber: 28,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -1361,33 +1487,33 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$mo
 const benefits = [
     {
         icon: "🌿",
-        title: "Свежесть и качество",
-        text: "Самая свежая фермерская продукция, изготовленная из лучших ингредиентов. Каждый товар — это труд настоящих мастеров."
+        title: "Настоящий вкус, качество и доверие ",
+        text: "Для нас важно всё: вкус, состав, свежесть и происхождение продукта. Мы работаем с фермерами и локальными производителями, которые давно и осознанно занимаются своим делом, поэтому между покупателем и продуктом формируется доверие. Здесь выбирают не магазинную продукцию, а живые, экологичные продукты с характером."
     },
     {
         icon: "✓",
-        title: "Безопасность и контроль",
-        text: "Вся продукция проходит санитарный контроль. Мы работаем только с проверенными фермерами, которым доверяем сами."
+        title: "Продукты напрямую от производителя ",
+        text: "На Гусь Маркете вы покупаете продукт у того, кто его создал. Фермеры с удовольствием делятся историей своих продуктов, подсказывают, как и с чем их лучше сочетать, и помогают сделать осознанный выбор. Многие позиции на маркете — авторские и не имеют аналогов в массовой продаже."
     },
     {
         icon: "📍",
-        title: "Удобные локации",
-        text: "Два рынка в самом центре Минска с максимальной проходимостью. Легко добраться, легко выбрать."
+        title: "Опыт, а не просто покупка",
+        text: "Приходя на Гусь Маркет, вы приходите не только за продуктами. Это возможность попробовать продукцию перед покупкой, пообщаться с фермерами и окунуться в атмосферу живого пространства, где ценят общение, интерес и удовольствие от процесса. "
     },
     {
         icon: "🎨",
-        title: "Яркая атмосфера",
-        text: "Красивые прилавки, продуманная эстетика и дружелюбная атмосфера делают каждую покупку приятной."
+        title: "Фермерские продукты в удобном городском формате",
+        text: "Мы делаем фермерскую продукцию доступной: вам не нужно ехать далеко за город или искать редкие точки продаж. Гусь Маркет — это комфортный, понятный формат в городе, который легко вписывается в повседневную жизнь. "
     },
     {
         icon: "💰",
-        title: "Честные цены",
-        text: "Прямые поставки от фермеров без посредников. Вы платите за качество, а не за накрутки."
+        title: "Ответственное отношение к фермерскому делу",
+        text: "Наша цель — не просто дать фермеру место за прилавком, а донести до покупателя ценность и особенности фермерской продукции. Мы развиваем культуру осознанного потребления и помогаем фермерским продуктам становиться понятными и востребованными. "
     },
     {
         icon: "🤝",
-        title: "Доверие и истории",
-        text: "Каждый фермер — это живой человек с историей. Вы знаете, кто вырастил ваш сыр и испёк хлеб."
+        title: "Современное пространство с открытой философией",
+        text: "Гусь Маркет — это не шумный базар, а современная городская локация, где продуман каждый элемент: от прилавков до общения. Здесь важны открытость фермеров, честность организаторов и уважение к каждому гостю. "
     }
 ];
 const Benefits = ()=>{
@@ -1616,19 +1742,19 @@ const News = ()=>{
             tag: "Новый фермер",
             title: "Знакомьтесь: новый сыровар",
             desc: "Козьи сыры ручной работы теперь каждые выходные на нашем прилавке.",
-            image: "https://images.unsplash.com/photo-1452195100486-9cc805987862?auto=format&fit=crop&q=80&w=600"
+            image: "/images/cheeseman.jpg"
         },
         {
             tag: "Событие",
             title: "Фотоотчёт с выходных",
             desc: "Как прошли выходные на Гусь Маркет: дегустации, музыка и живое общение.",
-            image: "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?auto=format&fit=crop&q=80&w=600"
+            image: "/images/market.jpg"
         },
         {
             tag: "Сезон",
             title: "Сезонные продукты",
             desc: "Свежие овощи, лесные грибы и осенние заготовки от наших фермеров.",
-            image: "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=600"
+            image: "/images/vitrina.jpg"
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1646,7 +1772,7 @@ const News = ()=>{
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     className: "text-gray-500 mb-20 text-lg max-w-2xl mx-auto",
-                    children: "Специальные события, новые фермеры, сезонные продукты — всё в нашем Instagram"
+                    children: "Специальные события, новые фермеры, сезонные продукты — всё в нашем Instagram И Telegram"
                 }, void 0, false, {
                     fileName: "[project]/src/components/News.tsx",
                     lineNumber: 71,
@@ -1669,13 +1795,35 @@ const News = ()=>{
                     lineNumber: 75,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                    className: "bg-[#4A7C23] text-white px-12 py-5 rounded-[1.5rem] font-bold hover:bg-[#2D5016] transition-all shadow-xl shadow-[#4A7C23]/20 hover:-translate-y-1",
-                    children: "Подписаться на Instagram"
-                }, void 0, false, {
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex justify-center gap-12",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                            href: "https://instagram.com/gusmarket.by",
+                            target: "_blank",
+                            className: "btn-primary font-bold",
+                            children: "Подписаться на Instagram"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/News.tsx",
+                            lineNumber: 88,
+                            columnNumber: 9
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                            href: "https://t.me/gusmarket_by",
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                            className: "btn-primary font-bold",
+                            children: "Подписаться на Telegram"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/News.tsx",
+                            lineNumber: 89,
+                            columnNumber: 9
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
                     fileName: "[project]/src/components/News.tsx",
                     lineNumber: 87,
-                    columnNumber: 9
+                    columnNumber: 11
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
@@ -1923,48 +2071,34 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Animate
 const Farmers = ()=>{
     const benefits = [
         {
-            icon: '💰',
-            title: 'Низкая цена размещения',
-            desc: 'Самые выгодные условия аренды места на рынке'
+            icon: '🤝',
+            title: 'Партнёрство, а не аренда',
+            desc: 'Мы развиваемся вместе с фермерами, активно продвигаем участников и строим долгосрочные партнёрские отношения.'
+        },
+        {
+            icon: '🎉',
+            title: 'Живой формат маркетов',
+            desc: 'Каждый уикенд тщательно организован: активности, общение с покупателями и вовлечение фермеров.'
         },
         {
             icon: '📍',
-            title: 'Премиальные локации',
-            desc: 'Два рынка в центре Минска с максимальной проходимостью'
+            title: 'Сильные городские локации',
+            desc: 'Мы выбираем места с аудиторией, которой действительно интересна фермерская продукция.'
         },
         {
-            icon: '🎨',
-            title: 'Яркие прилавки',
-            desc: 'Фирменный стиль и продуманная эстетика'
+            icon: '📣',
+            title: 'Медийная поддержка',
+            desc: 'Розыгрыши, опросы, живое общение и коллаборации помогают фермерам становиться узнаваемыми.'
         },
         {
-            icon: '📱',
-            title: 'Маркетинговая поддержка',
-            desc: 'Платный трафик, SMM, продвижение вашего бренда'
+            icon: '🧭',
+            title: 'Честные ценности',
+            desc: 'Мы ожидаем открытости перед покупателями и в ответ предлагаем уважение и одни из лучших условий торговли.'
         },
         {
-            icon: '🤝',
-            title: 'Сообщество',
-            desc: 'Команда из 30+ фермеров, которые растут вместе'
-        },
-        {
-            icon: '📈',
-            title: 'Растущая платформа',
-            desc: 'Молодой бренд с охватом более 10 000 покупателей'
-        }
-    ];
-    const stats = [
-        {
-            num: '17-18',
-            label: 'фермеров каждый уикенд'
-        },
-        {
-            num: '10-11',
-            label: 'участников в локации'
-        },
-        {
-            num: '10 000+',
-            label: 'покупателей за время работы'
+            icon: '🚀',
+            title: 'Проект с будущим',
+            desc: 'Гусь Маркет — растущее сообщество, о котором уже говорят. Вы становитесь частью большого пути.'
         }
     ];
     const steps = [
@@ -1998,14 +2132,14 @@ const Farmers = ()=>{
                 className: "absolute top-0 left-0 w-64 h-64 bg-green-light/20 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"
             }, void 0, false, {
                 fileName: "[project]/src/components/Farmers.tsx",
-                lineNumber: 34,
+                lineNumber: 54,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute bottom-0 right-0 w-96 h-96 bg-beige-main/10 rounded-full blur-3xl translate-x-1/3 translate-y-1/3"
             }, void 0, false, {
                 fileName: "[project]/src/components/Farmers.tsx",
-                lineNumber: 35,
+                lineNumber: 55,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2019,7 +2153,7 @@ const Farmers = ()=>{
                                 children: "Станьте частью команды Гусь Маркет"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Farmers.tsx",
-                                lineNumber: 41,
+                                lineNumber: 61,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2027,13 +2161,13 @@ const Farmers = ()=>{
                                 children: "Мы создаём современную площадку для развития вашего бренда"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Farmers.tsx",
-                                lineNumber: 44,
+                                lineNumber: 64,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Farmers.tsx",
-                        lineNumber: 39,
+                        lineNumber: 59,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$AnimateInView$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -2043,12 +2177,12 @@ const Farmers = ()=>{
                             children: "Гусь Маркет — это возможность стать частью чего-то большего. Мы поддерживаем каждого фермера как отдельный бренд и создаём тренд на фермерскую продукцию в Беларуси."
                         }, void 0, false, {
                             fileName: "[project]/src/components/Farmers.tsx",
-                            lineNumber: 50,
+                            lineNumber: 70,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/src/components/Farmers.tsx",
-                        lineNumber: 49,
+                        lineNumber: 69,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2063,7 +2197,7 @@ const Farmers = ()=>{
                                         children: b.icon
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Farmers.tsx",
-                                        lineNumber: 64,
+                                        lineNumber: 84,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2071,7 +2205,7 @@ const Farmers = ()=>{
                                         children: b.title
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Farmers.tsx",
-                                        lineNumber: 65,
+                                        lineNumber: 85,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2079,50 +2213,18 @@ const Farmers = ()=>{
                                         children: b.desc
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Farmers.tsx",
-                                        lineNumber: 66,
+                                        lineNumber: 86,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, i, true, {
                                 fileName: "[project]/src/components/Farmers.tsx",
-                                lineNumber: 58,
+                                lineNumber: 78,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)))
                     }, void 0, false, {
                         fileName: "[project]/src/components/Farmers.tsx",
-                        lineNumber: 56,
-                        columnNumber: 9
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "grid grid-cols-1 md:grid-cols-3 gap-8 mb-20 py-10 bg-white/5 backdrop-blur-sm rounded-3xl border border-white/10 text-white",
-                        children: stats.map((s, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "text-center px-4",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "text-4xl font-bold mb-2 text-green-light",
-                                        children: s.num
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/Farmers.tsx",
-                                        lineNumber: 75,
-                                        columnNumber: 15
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "text-sm opacity-80",
-                                        children: s.label
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/Farmers.tsx",
-                                        lineNumber: 76,
-                                        columnNumber: 15
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                ]
-                            }, i, true, {
-                                fileName: "[project]/src/components/Farmers.tsx",
-                                lineNumber: 74,
-                                columnNumber: 13
-                            }, ("TURBOPACK compile-time value", void 0)))
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/Farmers.tsx",
-                        lineNumber: 72,
+                        lineNumber: 76,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2133,7 +2235,7 @@ const Farmers = ()=>{
                                 children: "Как стать участником?"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Farmers.tsx",
-                                lineNumber: 83,
+                                lineNumber: 95,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2147,7 +2249,7 @@ const Farmers = ()=>{
                                                 children: step.n
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Farmers.tsx",
-                                                lineNumber: 91,
+                                                lineNumber: 103,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2157,7 +2259,7 @@ const Farmers = ()=>{
                                                         children: step.t
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Farmers.tsx",
-                                                        lineNumber: 95,
+                                                        lineNumber: 107,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2165,69 +2267,59 @@ const Farmers = ()=>{
                                                         children: step.d
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Farmers.tsx",
-                                                        lineNumber: 96,
+                                                        lineNumber: 108,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Farmers.tsx",
-                                                lineNumber: 94,
+                                                lineNumber: 106,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, i, true, {
                                         fileName: "[project]/src/components/Farmers.tsx",
-                                        lineNumber: 86,
+                                        lineNumber: 98,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Farmers.tsx",
-                                lineNumber: 84,
+                                lineNumber: 96,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Farmers.tsx",
-                        lineNumber: 82,
+                        lineNumber: 94,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$AnimateInView$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         className: "text-center",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: "https://gusmarket.taplink.ws",
-                                target: "_blank",
-                                className: "inline-block bg-green-main hover:bg-green-light text-white px-10 py-4 rounded-full font-bold transition-all hover:scale-105 shadow-2xl mb-4",
-                                children: "Оставить заявку фермеру"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/Farmers.tsx",
-                                lineNumber: 104,
-                                columnNumber: 11
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-sm text-green-pale/50 italic",
-                                children: "Мы предоставим всю информацию о стоимости и условиях индивидуально"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/Farmers.tsx",
-                                lineNumber: 111,
-                                columnNumber: 11
-                            }, ("TURBOPACK compile-time value", void 0))
-                        ]
-                    }, void 0, true, {
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                            href: "https://gusmarket.taplink.ws",
+                            target: "_blank",
+                            className: "inline-block bg-green-main hover:bg-green-light text-white px-10 py-4 rounded-full font-bold transition-all hover:scale-105 shadow-2xl mb-4",
+                            children: "Оставить заявку фермеру"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/Farmers.tsx",
+                            lineNumber: 116,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0))
+                    }, void 0, false, {
                         fileName: "[project]/src/components/Farmers.tsx",
-                        lineNumber: 103,
+                        lineNumber: 115,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Farmers.tsx",
-                lineNumber: 37,
+                lineNumber: 57,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/Farmers.tsx",
-        lineNumber: 31,
+        lineNumber: 51,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0)));
 };

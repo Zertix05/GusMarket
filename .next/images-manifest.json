@@ -40,17 +40,11 @@
         "search": ""
       }
     ],
-    "remotePatterns": [
-      {
-        "protocol": "https",
-        "hostname": "^(?:^(?:images\\.unsplash\\.com)$)$",
-        "pathname": "^(?:(?!(?:^|\\/)\\.{1,2}(?:\\/|$))(?:(?:(?!(?:^|\\/)\\.{1,2}(?:\\/|$)).)*?)\\/?)$"
-      }
-    ],
+    "remotePatterns": [],
     "qualities": [
       75
     ],
-    "unoptimized": false,
+    "unoptimized": true,
     "sizes": [
       640,
       750,

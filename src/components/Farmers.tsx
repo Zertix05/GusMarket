@@ -2,22 +2,52 @@
 
 import React from 'react';
 import AnimateInView from './AnimateInView';
+import {
+  Handshake,
+  PartyPopper,
+  MapPin,
+  Megaphone,
+  Compass,
+  Rocket
+} from "lucide-react";
+
 
 const Farmers = () => {
-  const benefits = [
-    { icon: '💰', title: 'Низкая цена размещения', desc: 'Самые выгодные условия аренды места на рынке' },
-    { icon: '📍', title: 'Премиальные локации', desc: 'Два рынка в центре Минска с максимальной проходимостью' },
-    { icon: '🎨', title: 'Яркие прилавки', desc: 'Фирменный стиль и продуманная эстетика' },
-    { icon: '📱', title: 'Маркетинговая поддержка', desc: 'Платный трафик, SMM, продвижение вашего бренда' },
-    { icon: '🤝', title: 'Сообщество', desc: 'Команда из 30+ фермеров, которые растут вместе' },
-    { icon: '📈', title: 'Растущая платформа', desc: 'Молодой бренд с охватом более 10 000 покупателей' },
-  ];
+ const benefits = [
+  {
+    icon: Handshake,
+    title: 'Партнёрство, а не аренда',
+    desc: 'Мы развиваемся вместе с фермерами, активно продвигаем участников и строим долгосрочные партнёрские отношения.'
+  },
+  {
+    icon: PartyPopper,
+    title: 'Живой формат маркетов',
+    desc: 'Каждый уикенд тщательно организован: активности, общение с покупателями и вовлечение фермеров.'
+  },
+  {
+    icon: MapPin,
+    title: 'Сильные городские локации',
+    desc: 'Мы выбираем места с аудиторией, которой действительно интересна фермерская продукция.'
+  },
+  {
+    icon: Megaphone,
+    title: 'Медийная поддержка',
+    desc: 'Розыгрыши, опросы, живое общение и коллаборации помогают фермерам становиться узнаваемыми.'
+  },
+  {
+    icon: Compass,
+    title: 'Честные ценности',
+    desc: 'Мы ожидаем открытости перед покупателями и в ответ предлагаем уважение и одни из лучших условий торговли.'
+  },
+  {
+    icon: Rocket,
+    title: 'Проект с будущим',
+    desc: 'Гусь Маркет — растущее сообщество, о котором уже говорят. Вы становитесь частью большого пути.'
+  },
+];
 
-  const stats = [
-    { num: '17-18', label: 'фермеров каждый уикенд' },
-    { num: '10-11', label: 'участников в локации' },
-    { num: '10 000+', label: 'покупателей за время работы' },
-  ];
+
+
 
   const steps = [
     { n: '1', t: 'Заполните заявку', d: 'Расскажите о себе и своей продукции' },
@@ -61,7 +91,9 @@ const Farmers = () => {
               // bg-white/10 + backdrop-blur-md + border-white/20 = СТЕКЛО
               className="p-8 border border-white/20 rounded-2xl bg-white/10 backdrop-blur-md hover:bg-white/20 transition-all duration-300"
             >
-              <div className="text-4xl mb-4">{b.icon}</div>
+              <div className="text-green-light mb-4 ">
+                <b.icon size={28} strokeWidth={2.3}/>
+              </div>
               <h3 className="text-xl font-bold text-white mb-2">{b.title}</h3>
               <p className="text-green-pale/70 text-sm">{b.desc}</p>
             </AnimateInView>
@@ -69,14 +101,6 @@ const Farmers = () => {
         </div>
 
         {/* Статистика с эффектом выделенного стекла */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20 py-10 bg-white/5 backdrop-blur-sm rounded-3xl border border-white/10 text-white">
-          {stats.map((s, i) => (
-            <div key={i} className="text-center px-4">
-              <div className="text-4xl font-bold mb-2 text-green-light">{s.num}</div>
-              <div className="text-sm opacity-80">{s.label}</div>
-            </div>
-          ))}
-        </div>
 
         {/* Стеклянные шаги */}
         <div className="mb-20">
@@ -108,9 +132,6 @@ const Farmers = () => {
           >
             Оставить заявку фермеру
           </a>
-          <p className="text-sm text-green-pale/50 italic">
-            Мы предоставим всю информацию о стоимости и условиях индивидуально
-          </p>
         </AnimateInView>
 
       </div>

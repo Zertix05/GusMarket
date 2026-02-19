@@ -5,43 +5,43 @@ const Product = () => {
   const productData = [
     {
       title: "Мясо и рыба",
-      description: "Говядина, свинина, птица и свежая рыба прямо с фермерских хозяйств.",
+      description: "Копченые мясо и рыба, сало, колбасы, мясные чипсы, джерки",
       image: "/images/meat.jpg"
     },
     {
       title: "Сыры",
-      description: "Козьи и коровьи: твёрдые, мягкие, с плесенью по старинным рецептам.",
+      description: " Козьи и коровьи, твёрдые и мягкие, молодые и выдержанные, с плесенью",
       image: "/images/cheese.jpg"
     },
     {
       title: "Хлеб и выпечка",
-      description: "Хлеб на закваске, который пахнет домашним уютом и детством.",
+      description: "Хлеб на закваске, безглютеновый хлеб, печенья, пирожки, булочки",
       image: "/images/bread.jpg"
     },
     {
-      title: "Деликатесы",
-      description: "Мясные деликатесы современного приготовления высокого качества.",
-      image: "/images/meat_dishes.jpg"
+      title: "Су-вид продукция",
+      description: "Деликатесы современного приготовления высокого качества",
+      image: "/images/su_prod.jpg"
     },
     {
-      title: "Мед и напитки",
-      description: "Натуральный мед, медовые напитки и домашний квас.",
+      title: "Мед и медовые напитки",
+      description: " Натуральный мёд, медовые напитки, квас, сурица",
       image: "/images/honey.jpg"
     },
     {
       title: "Сладости",
-      description: "Зефир, моти, пряники и десерты без капли химии.",
+      description: " Моти, макароны, пряники, торты, орешки и трубочки со сгущенкой, а также эко-сладости ",
       image: "/images/cookies.jpg"
     },
     {
       title: "Соусы и заготовки",
-      description: "Домашние соусы, варенья, специи и бабушкины заготовки.",
-      image: "/images/products.jpg"
+      description: " Домашние соусы, песто, варенье, закатки",
+      image: "/images/souces.jpg"
     },
     {
-      title: "Овощи и зелень",
-      description: "Сезонные овощи и свежая зелень прямо с грядки.",
-      image: "/images/vegetables.jpg"
+      title: "Чаи, травы, бады",
+      description: "Травяные лечебные чаи, бады, специи, продукты для здоровья ",
+      image: "/images/tea.jpg"
     }
   ];
 
@@ -50,13 +50,13 @@ const Product = () => {
       {/* Фоновый декор */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-green-main/10 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/2" />
 
-      <div className="container mx-auto px-6 max-w-7xl relative z-10">
+      <div className="container mx-auto px-6 max-w-[1400px] relative z-10">
         <AnimateInView className="text-center max-w-3xl mx-auto mb-20" yOffset={30}>
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+          <h2 className="text-4xl lg:text-5xl  text-white mb-6">
             Всё лучшее от белорусских фермеров
           </h2>
           <p className="text-green-pale/70 text-lg">
-            Более 17 фермеров каждый уикенд привозят свежую продукцию, выращенную с любовью.
+            Каждый уикенд фермеры привозят свежую продукцию, выращенную с любовью.
           </p>
         </AnimateInView>
 

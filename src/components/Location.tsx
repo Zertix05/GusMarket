@@ -8,7 +8,7 @@ import { MapPin, Navigation, ArrowUpRight } from 'lucide-react';
 const Location = () => {
   // Ссылки на Яндекс Карты для обеих локаций
   const chervenskyUrl = "https://yandex.by/maps/-/CLwxbDI5"; // Замените на точную ссылку ТРЦ Червенский
-  const chizhovkaUrl = "https://yandex.by/maps/-/CLwxz-2O"; // Замените на точную ссылку ТЦ Чижовка Green
+  const chizhovkaUrl = "https://yandex.by/maps/-/CPA9JH3F"; // Замените на точную ссылку ТОЦ Авиамолл
 
   return (
     <section id="locations" className="py-24 bg-[#FAF6EE]">
@@ -40,7 +40,7 @@ const Location = () => {
                   <h4 className="font-bold text-[#2D5016] text-xl mb-1">ТРЦ Червенский</h4>
                   <p className="text-gray-600 leading-relaxed">
                     г. Минск, ул. Маяковского, 6<br/>
-                    <span className="text-sm font-medium text-[#4A7C23]">Пт, Сб, Вс: 12:00 – 20:00</span>
+                    <span className="text-sm font-medium text-[#4A7C23]">Пт-Вс: 12:00 – 20:00</span>
                   </p>
                 </div>
               </div>
@@ -51,10 +51,10 @@ const Location = () => {
                   <MapPin size={28} />
                 </div>
                 <div>
-                  <h4 className="font-bold text-[#2D5016] text-xl mb-1">ТЦ Чижовка Green</h4>
+                  <h4 className="font-bold text-[#2D5016] text-xl mb-1">ТОЦ Авиа Молл</h4>
                   <p className="text-gray-600 leading-relaxed">
-                    г. Минск, ул. Уборевича, 176<br/>
-                    <span className="text-sm font-medium text-[#4A7C23]">Сб, Вс: 11:00 – 19:00</span>
+                    г. Минск, ул. Братская 18<br/>
+                    <span className="text-sm font-medium text-[#4A7C23]">Пт-Вс: 10:00 – 22:00</span>
                   </p>
                 </div>
               </div>
@@ -67,7 +67,7 @@ const Location = () => {
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.02, y: -2 }}
                 whileTap={{ scale: 0.98 }}
-                className="flex items-center justify-center gap-2 bg-[#4A7C23] text-white font-bold py-4 px-8 rounded-2xl shadow-lg shadow-[#4A7C23]/20 hover:bg-[#2D5016] transition-all text-sm"
+               className="flex items-center justify-center gap-2 bg-white border-2 border-[#4A7C23] text-[#4A7C23] font-bold py-4 px-8 rounded-2xl hover:bg-[#E8F0E0] transition-all text-sm"
               >
                 Червенский
                 <ArrowUpRight size={18} />
@@ -81,7 +81,7 @@ const Location = () => {
                 whileTap={{ scale: 0.98 }}
                 className="flex items-center justify-center gap-2 bg-white border-2 border-[#4A7C23] text-[#4A7C23] font-bold py-4 px-8 rounded-2xl hover:bg-[#E8F0E0] transition-all text-sm"
               >
-                Чижовка Green
+                Авиа Молл
                 <ArrowUpRight size={18} />
               </motion.a>
             </div>
