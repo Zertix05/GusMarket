@@ -293,10 +293,26 @@ const Hero = ()=>{
                                         lineNumber: 71,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "font-bold text-green-dark text-xl",
-                                        children: "Пт–Вс: 10:00 – 20:00"
-                                    }, void 0, false, {
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "font-bold text-green-dark text-l",
+                                                children: "Червенский Пт-Сб: 12:00-20:00"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/Hero.tsx",
+                                                lineNumber: 75,
+                                                columnNumber: 13
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "font-bold text-green-dark text-l",
+                                                children: "Манифест Пт-Сб: 12:00-19:00"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/Hero.tsx",
+                                                lineNumber: 78,
+                                                columnNumber: 14
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/src/components/Hero.tsx",
                                         lineNumber: 74,
                                         columnNumber: 13
@@ -311,7 +327,7 @@ const Hero = ()=>{
                                 whileHover: {
                                     y: -3
                                 },
-                                href: "https://yandex.by/maps/-/CLwxbDI5",
+                                href: "https://yandex.by/maps/-/CPsDr4iJ",
                                 target: "_blank",
                                 className: "inline-flex items-center gap-2 bg-green-main text-white px-10 py-5 rounded-2xl font-bold shadow-lg hover:bg-green-dark transition-all",
                                 children: [
@@ -319,14 +335,14 @@ const Hero = ()=>{
                                         size: 20
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 85,
+                                        lineNumber: 90,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     "Найти на карте"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 79,
+                                lineNumber: 84,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
@@ -370,22 +386,22 @@ const Hero = ()=>{
                                             className: "object-cover"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Hero.tsx",
-                                            lineNumber: 102,
+                                            lineNumber: 107,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0))
                                     }, index, false, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 94,
+                                        lineNumber: 99,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Hero.tsx",
-                                    lineNumber: 93,
+                                    lineNumber: 98,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 92,
+                                lineNumber: 97,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -395,18 +411,18 @@ const Hero = ()=>{
                                         className: `h-2.5 rounded-full transition-all ${i === index ? 'bg-green-main w-8' : 'bg-green-main/30 w-2.5'}`
                                     }, i, false, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 118,
+                                        lineNumber: 123,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 116,
+                                lineNumber: 121,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Hero.tsx",
-                        lineNumber: 91,
+                        lineNumber: 96,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
@@ -495,11 +511,11 @@ const About = ()=>{
             label: "довольных покупателей"
         },
         {
-            value: "30+",
+            value: "50+",
             label: "фермеров в команде"
         },
         {
-            value: "10+",
+            value: "15+",
             label: "категорий продукции"
         },
         {
@@ -711,8 +727,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 ;
 const Location = ()=>{
     // Ссылки на Яндекс Карты для обеих локаций
-    const chervenskyUrl = "https://yandex.by/maps/-/CLwxbDI5"; // Замените на точную ссылку ТРЦ Червенский
-    const chizhovkaUrl = "https://yandex.by/maps/-/CPA9JH3F"; // Замените на точную ссылку ТОЦ Авиамолл
+    const chervenskyUrl = "https://yandex.by/maps/-/CPsDr4iJ"; // Замените на точную ссылку ТРЦ Червенский
+    const chizhovkaUrl = "https://yandex.by/maps/-/CPsD7Yo0"; // Замените на точную ссылку ТОЦ Авиамолл
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "locations",
         className: "py-24 bg-[#FAF6EE]",
@@ -792,7 +808,7 @@ const Location = ()=>{
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 className: "text-sm font-medium text-[#4A7C23]",
-                                                                children: "Пт-Вс: 12:00 – 20:00"
+                                                                children: "Пт-Сб: 12:00 – 20:00"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Location.tsx",
                                                                 lineNumber: 43,
@@ -837,7 +853,7 @@ const Location = ()=>{
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                                                         className: "font-bold text-[#2D5016] text-xl mb-1",
-                                                        children: "ТОЦ Авиа Молл"
+                                                        children: "Сквер Манифест"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Location.tsx",
                                                         lineNumber: 54,
@@ -846,15 +862,15 @@ const Location = ()=>{
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         className: "text-gray-600 leading-relaxed",
                                                         children: [
-                                                            "г. Минск, ул. Братская 18",
+                                                            "г. Минск, ул. Кульман, 1/8",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                 fileName: "[project]/src/components/Location.tsx",
                                                                 lineNumber: 56,
-                                                                columnNumber: 46
+                                                                columnNumber: 47
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 className: "text-sm font-medium text-[#4A7C23]",
-                                                                children: "Пт-Вс: 10:00 – 22:00"
+                                                                children: "Пт-Сб 12:00-19:00"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Location.tsx",
                                                                 lineNumber: 57,
@@ -927,7 +943,7 @@ const Location = ()=>{
                                         },
                                         className: "flex items-center justify-center gap-2 bg-white border-2 border-[#4A7C23] text-[#4A7C23] font-bold py-4 px-8 rounded-2xl hover:bg-[#E8F0E0] transition-all text-sm",
                                         children: [
-                                            "Авиа Молл",
+                                            "Сквер Манифест",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$up$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowUpRight$3e$__["ArrowUpRight"], {
                                                 size: 18
                                             }, void 0, false, {
@@ -1232,7 +1248,7 @@ const Footer = ()=>{
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-white/70 text-[15.2px]",
-                                                children: "ТОЦ «Авиа Молл»"
+                                                children: "Сквер Манифест"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Footer.tsx",
                                                 lineNumber: 90,
@@ -1246,7 +1262,7 @@ const Footer = ()=>{
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-white/70 text-[15.2px]",
-                                                children: "ул. Братская 18"
+                                                children: "ул. Кульман, 1/8"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Footer.tsx",
                                                 lineNumber: 91,
@@ -1370,7 +1386,7 @@ const Footer = ()=>{
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    children: "Пт-Вс: 10:00–20:00"
+                                                    children: "Пт-Сб: 12:00–19:00"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Footer.tsx",
                                                     lineNumber: 134,
@@ -2031,11 +2047,11 @@ const FAQR = ()=>{
     const faqData = [
         {
             question: 'Где находится рынок?',
-            answer: 'Мы находимся в городе Минск, в ТРЦ Червенский (ул. Маяковского, 6) и ТЦ "Green" Чижовка (ул. Уборевича, 176)'
+            answer: 'Мы находимся в городе Минск, в ТРЦ Червенский (ул. Маяковского, 6) и Сквер Манифест (ул. Кульман, 1/8)'
         },
         {
             question: 'В какие дни работает рынок?',
-            answer: 'Мы работаем каждые пятница, суббота и воскресенье с 12:00 до 20:00'
+            answer: 'Мы работаем в ТРЦ Червенский каждые пятница, суббота с 12:00 до 20:00 и в Сквере Манифест каждые пятница, суббота с 12:00 до 19:00'
         },
         {
             question: 'Можно ли приехать со своей продукцией?',

@@ -87,8 +87,8 @@ const Footer = () => {
             <ul className="list-none p-0 m-0 space-y-3">
               <li><span className="text-white/70 text-[15.2px]">ТРЦ «Червенский»</span></li>
               <li><span className="text-white/70 text-[15.2px]">ул. Маяковского, 6</span></li>
-              <li><span className="text-white/70 text-[15.2px]">ТОЦ «Авиа Молл»</span></li>
-              <li><span className="text-white/70 text-[15.2px]">ул. Братская 18</span></li>
+              <li><span className="text-white/70 text-[15.2px]">Сквер Манифест</span></li>
+              <li><span className="text-white/70 text-[15.2px]">ул. Кульман, 1/8</span></li>
             </ul>
           </div>
 
@@ -131,7 +131,7 @@ const Footer = () => {
 
               <div className="flex items-center gap-3 text-white/70 text-[15.2px]">
                 <Clock size={18} />
-                <span>Пт-Вс: 10:00–20:00</span>
+                <span>Пт-Сб: 12:00–19:00</span>
               </div>
             </div>
           </div>

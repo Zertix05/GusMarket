@@ -71,14 +71,19 @@ const Hero = () => {
             <div className="w-14 h-14 bg-[#E8F0E0] rounded-2xl flex items-center justify-center">
               <Calendar className="text-green-dark" />
             </div>
-            <p className="font-bold text-green-dark text-xl">
-              Пт–Вс: 10:00 – 20:00
+            <div>
+            <p className="font-bold text-green-dark text-l">
+             Червенский Пт-Сб: 12:00-20:00
             </p>
+             <p className="font-bold text-green-dark text-l">
+             Манифест Сб: 12:00-19:00
+            </p>
+            </div>
           </motion.div>
 
           <motion.a
             whileHover={{ y: -3 }}
-            href="https://yandex.by/maps/-/CLwxbDI5"
+            href="https://yandex.by/maps/-/CPsDr4iJ"
             target="_blank"
             className="inline-flex items-center gap-2 bg-green-main text-white px-10 py-5 rounded-2xl font-bold shadow-lg hover:bg-green-dark transition-all"
           >

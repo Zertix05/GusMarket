@@ -1,42 +1,453 @@
-[00:00:01.382] Server  LOG      ✓ Ready in 938ms
-[00:00:11.066] Server  LOG      ○ Compiling / ...
-[00:00:28.447] Server  ERROR   D:\GusMarket\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:28.479] Server  ERROR    ⨯ TypeError: Cannot convert argument to a ByteString because the character at index 835 has a value of 1050 which is greater than 255.
-[00:00:29.187] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:04.086] Server  LOG      ✓ Ready in 2.8s
+[00:00:08.264] Server  LOG      ○ Compiling / ...
+[00:00:12.908] Server  ERROR   D:\GusMarket\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:12.914] Server  ERROR    ⨯ TypeError: Cannot convert argument to a ByteString because the character at index 835 has a value of 1050 which is greater than 255.
+[00:00:13.962] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:32.584] Server  LOG      ✓ Compiled in 193ms
+[00:06:34.352] Server  LOG      ✓ Compiled in 128ms
+[00:10:10.473] Server  LOG      ✓ Compiled in 39ms
+[00:10:16.536] Server  LOG      ✓ Compiled in 31ms
+[00:10:20.090] Server  LOG      ✓ Compiled in 34ms
+[00:10:25.629] Server  LOG      ✓ Compiled in 48ms
+[00:10:28.587] Server  LOG      ✓ Compiled in 53ms
+[00:10:31.050] Server  LOG      ✓ Compiled in 50ms
+[00:10:52.077] Server  LOG      ✓ Compiled in 114ms
+[00:11:05.435] Server  LOG      ✓ Compiled in 29ms
+[00:11:07.167] Server  LOG      ✓ Compiled in 139ms
+[00:12:53.346] Server  LOG      ✓ Compiled in 46ms
+[00:13:22.114] Server  LOG      ✓ Compiled in 31ms
+[00:13:37.847] Server  LOG      ✓ Compiled in 32ms
+[00:15:10.584] Server  LOG      ✓ Compiled in 52ms
+[00:15:25.913] Server  LOG      ✓ Compiled in 50ms
+[00:16:12.169] Server  LOG      ✓ Compiled in 331ms
+[00:16:20.216] Server  LOG      ✓ Compiled in 29ms
+[00:17:08.592] Server  LOG      ✓ Compiled in 29ms
+[00:18:00.820] Server  LOG      ✓ Compiled in 39ms
+[00:18:08.378] Server  LOG      ✓ Compiled in 315ms
+[00:18:22.012] Server  LOG      ✓ Compiled in 34ms
+[00:18:23.180] Server  LOG      ✓ Compiled in 45ms
+[00:18:27.480] Server  LOG      ✓ Compiled in 37ms
+[00:18:29.645] Server  LOG      ✓ Compiled in 34ms
+[00:18:32.150] Server  LOG      ✓ Compiled in 66ms
+[00:18:44.635] Server  LOG      ✓ Compiled in 34ms
+[00:18:46.744] Server  LOG      ✓ Compiled in 47ms
+[00:18:51.455] Server  LOG      ✓ Compiled in 27ms
+[00:19:11.044] Server  LOG      ✓ Compiled in 174ms
+[00:19:55.532] Server  LOG      ✓ Compiled in 33ms
+[00:19:59.220] Server  LOG      ✓ Compiled in 34ms
+[00:20:00.399] Server  LOG      ✓ Compiled in 35ms
+[00:20:05.300] Server  LOG      ✓ Compiled in 40ms
+[00:20:09.103] Server  LOG      ✓ Compiled in 32ms
+[00:20:17.283] Server  LOG      ✓ Compiled in 47ms
+[00:20:19.592] Server  LOG      ✓ Compiled in 34ms
+[00:20:21.335] Server  LOG      ✓ Compiled in 39ms
+[00:20:23.548] Server  LOG      ✓ Compiled in 34ms
+[00:20:26.134] Server  LOG      ✓ Compiled in 35ms
+[00:26:51.195] Server  ERROR    ⨯ ./src/app/layout.tsx:1:1
+Module not found: Can't resolve './styles/globals.css'
+> 1 | import './styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Metadata } from 'next';
+  3 | import Header from '../components/Header';
+  4 | import { Manrope, Cormorant_Garamond } from 'next/font/google'
 
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
 
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
 
-%s%s https://react.dev/link/hydration-mismatch 
+https://nextjs.org/docs/messages/module-not-found
 
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="ru" className="manrope_74...">
-                          <head>
-                          <body
--                           __processed_0135b4c7-f8fb-4061-9e4d-56eecdb6c907__="true"
--                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6Im5pbWxtZWpibW5lY25hZ2hnbWJhaG1iYWRk..."
-                          >
-                  ...
 
+[00:26:51.236] Server  ERROR    ⨯ ./src/app/layout.tsx:1:1
+Module not found: Can't resolve './styles/globals.css'
+> 1 | import './styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Metadata } from 'next';
+  3 | import Header from '../components/Header';
+  4 | import { Manrope, Cormorant_Garamond } from 'next/font/google'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:51.238] Server  ERROR    ⨯ ./src/app/layout.tsx:1:1
+Module not found: Can't resolve './styles/globals.css'
+> 1 | import './styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Metadata } from 'next';
+  3 | import Header from '../components/Header';
+  4 | import { Manrope, Cormorant_Garamond } from 'next/font/google'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:51.240] Server  ERROR    ⨯ ./src/app/layout.tsx:1:1
+Module not found: Can't resolve './styles/globals.css'
+> 1 | import './styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Metadata } from 'next';
+  3 | import Header from '../components/Header';
+  4 | import { Manrope, Cormorant_Garamond } from 'next/font/google'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:51.244] Server  ERROR    ⨯ ./src/app/layout.tsx:1:1
+Module not found: Can't resolve './styles/globals.css'
+> 1 | import './styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Metadata } from 'next';
+  3 | import Header from '../components/Header';
+  4 | import { Manrope, Cormorant_Garamond } from 'next/font/google'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:51.245] Server  ERROR    ⨯ ./src/app/layout.tsx:1:1
+Module not found: Can't resolve './styles/globals.css'
+> 1 | import './styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Metadata } from 'next';
+  3 | import Header from '../components/Header';
+  4 | import { Manrope, Cormorant_Garamond } from 'next/font/google'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:51.285] Server  LOG      ✓ Compiled in 395ms
+[00:26:51.832] Browser ERROR   ./src/app/layout.tsx:1:1
+Module not found: Can't resolve './styles/globals.css'
+> 1 | import './styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Metadata } from 'next';
+  3 | import Header from '../components/Header';
+  4 | import { Manrope, Cormorant_Garamond } from 'next/font/google'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:26:53.037] Server  ERROR   D:\GusMarket\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:26:53.038] Server  ERROR    ⨯ TypeError: Cannot convert argument to a ByteString because the character at index 835 has a value of 1050 which is greater than 255.
+[00:26:53.480] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:00.626] Server  ERROR    ⨯ ./src/app/layout.tsx:1:1
+Module not found: Can't resolve '../styles'
+> 1 | import '../styles';
+    | ^^^^^^^^^^^^^^^^^^^
+  2 | import { Metadata } from 'next';
+  3 | import Header from '../components/Header';
+  4 | import { Manrope, Cormorant_Garamond } from 'next/font/google'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:00.664] Server  ERROR    ⨯ ./src/app/layout.tsx:1:1
+Module not found: Can't resolve '../styles'
+> 1 | import '../styles';
+    | ^^^^^^^^^^^^^^^^^^^
+  2 | import { Metadata } from 'next';
+  3 | import Header from '../components/Header';
+  4 | import { Manrope, Cormorant_Garamond } from 'next/font/google'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:00.665] Server  ERROR    ⨯ ./src/app/layout.tsx:1:1
+Module not found: Can't resolve '../styles'
+> 1 | import '../styles';
+    | ^^^^^^^^^^^^^^^^^^^
+  2 | import { Metadata } from 'next';
+  3 | import Header from '../components/Header';
+  4 | import { Manrope, Cormorant_Garamond } from 'next/font/google'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:00.666] Server  ERROR    ⨯ ./src/app/layout.tsx:1:1
+Module not found: Can't resolve '../styles'
+> 1 | import '../styles';
+    | ^^^^^^^^^^^^^^^^^^^
+  2 | import { Metadata } from 'next';
+  3 | import Header from '../components/Header';
+  4 | import { Manrope, Cormorant_Garamond } from 'next/font/google'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:00.668] Server  ERROR    ⨯ ./src/app/layout.tsx:1:1
+Module not found: Can't resolve '../styles'
+> 1 | import '../styles';
+    | ^^^^^^^^^^^^^^^^^^^
+  2 | import { Metadata } from 'next';
+  3 | import Header from '../components/Header';
+  4 | import { Manrope, Cormorant_Garamond } from 'next/font/google'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:00.669] Server  ERROR    ⨯ ./src/app/layout.tsx:1:1
+Module not found: Can't resolve '../styles'
+> 1 | import '../styles';
+    | ^^^^^^^^^^^^^^^^^^^
+  2 | import { Metadata } from 'next';
+  3 | import Header from '../components/Header';
+  4 | import { Manrope, Cormorant_Garamond } from 'next/font/google'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:00.708] Server  LOG      ✓ Compiled in 112ms
+[00:27:01.670] Server  ERROR    ⨯ ./src/app/layout.tsx:1:1
+Module not found: Can't resolve '../styles/'
+> 1 | import '../styles/';
+    | ^^^^^^^^^^^^^^^^^^^^
+  2 | import { Metadata } from 'next';
+  3 | import Header from '../components/Header';
+  4 | import { Manrope, Cormorant_Garamond } from 'next/font/google'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:01.672] Server  ERROR    ⨯ ./src/app/layout.tsx:1:1
+Module not found: Can't resolve '../styles/'
+> 1 | import '../styles/';
+    | ^^^^^^^^^^^^^^^^^^^^
+  2 | import { Metadata } from 'next';
+  3 | import Header from '../components/Header';
+  4 | import { Manrope, Cormorant_Garamond } from 'next/font/google'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:01.673] Server  ERROR    ⨯ ./src/app/layout.tsx:1:1
+Module not found: Can't resolve '../styles/'
+> 1 | import '../styles/';
+    | ^^^^^^^^^^^^^^^^^^^^
+  2 | import { Metadata } from 'next';
+  3 | import Header from '../components/Header';
+  4 | import { Manrope, Cormorant_Garamond } from 'next/font/google'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:01.674] Server  ERROR    ⨯ ./src/app/layout.tsx:1:1
+Module not found: Can't resolve '../styles/'
+> 1 | import '../styles/';
+    | ^^^^^^^^^^^^^^^^^^^^
+  2 | import { Metadata } from 'next';
+  3 | import Header from '../components/Header';
+  4 | import { Manrope, Cormorant_Garamond } from 'next/font/google'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:01.675] Server  ERROR    ⨯ ./src/app/layout.tsx:1:1
+Module not found: Can't resolve '../styles/'
+> 1 | import '../styles/';
+    | ^^^^^^^^^^^^^^^^^^^^
+  2 | import { Metadata } from 'next';
+  3 | import Header from '../components/Header';
+  4 | import { Manrope, Cormorant_Garamond } from 'next/font/google'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:01.821] Browser ERROR   ./src/app/layout.tsx:1:1
+Module not found: Can't resolve '../styles'
+> 1 | import '../styles';
+    | ^^^^^^^^^^^^^^^^^^^
+  2 | import { Metadata } from 'next';
+  3 | import Header from '../components/Header';
+  4 | import { Manrope, Cormorant_Garamond } from 'next/font/google'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:27:01.821] Browser ERROR   ./src/app/layout.tsx:1:1
+Module not found: Can't resolve '../styles/'
+> 1 | import '../styles/';
+    | ^^^^^^^^^^^^^^^^^^^^
+  2 | import { Metadata } from 'next';
+  3 | import Header from '../components/Header';
+  4 | import { Manrope, Cormorant_Garamond } from 'next/font/google'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:27:07.350] Server  ERROR   D:\GusMarket\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:27:07.352] Server  ERROR    ⨯ TypeError: Cannot convert argument to a ByteString because the character at index 835 has a value of 1050 which is greater than 255.
+[00:27:07.793] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:13.647] Server  ERROR   D:\GusMarket\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:28:13.648] Server  ERROR    ⨯ TypeError: Cannot convert argument to a ByteString because the character at index 835 has a value of 1050 which is greater than 255.
+[00:28:13.871] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:14.819] Browser WARN    Image with src "http://localhost:3000/images/mainCarousell/1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:28:14.819] Browser WARN    Image with src "http://localhost:3000/images/mainCarousell/1.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:28:14.819] Browser WARN    Image with src "http://localhost:3000/images/zenfood/%D0%9A%D1%82%D0%BE_%D0%BC%D1%8B,_%D1%87%D1%82%D0%BE_%D0%BC%D1%8B%D0%9C%D1%8B_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80_%D0%B8_%D0%90%D0%BD%D0%B0%D1%81%D1%82%D0%B0%D1%81%D0%B8%D1%8F_%D0%94%D0%B2%D0%B0_%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%D0%B0,_%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B5_%D0%BD%D0%B0%D1%88%D0%BB%D0%B8.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:28:15.815] Browser WARN    Image with src "http://localhost:3000/images/%D0%A8%D0%B0%D0%BB%D0%B5%D0%BD%D0%B0%D1%8F%D0%93%D0%B0%D1%81%D0%BF%D0%B0%D0%B4%D0%B0%D1%80%D0%BA%D0%B0/IMG_4619.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:28:15.815] Browser WARN    Image with src "http://localhost:3000/images/%D1%82%D0%B0%D0%BD%D0%B8%D0%BD%D0%A5%D0%BB%D0%B5%D0%B1/tanya.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:28:15.815] Browser WARN    Image with src "http://localhost:3000/images/%D0%BA%D1%83%D0%B7%D1%8C%D0%BC%D0%B0%D0%A4%D1%83%D0%B4/%D0%97%D0%BD%D0%B0%D0%BA%D0%BE%D0%BC%D0%B8%D0%BC_%D0%B2%D0%B0%D1%81_%D1%81_@kuzma_food_%D0%9C%D1%8B_%D1%81%D0%B5%D0%BC%D1%8C%D1%8F_%D0%B8%D0%B7_%D1%82%D1%80%D1%91%D1%85_%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA_%D0%9A%D0%90%D0%A2%D0%AF,_%D0%A1%D0%90%D0%A8%D0%90_%D0%98%20(3).jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:28:15.815] Browser WARN    Image with src "http://localhost:3000/images/%D0%BB%D0%B5%D1%82%D1%83%D1%87%D0%B0%D1%8F%D0%9A%D0%BE%D0%B7%D0%B0/IMG_7476.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:28:15.815] Browser WARN    Image with src "http://localhost:3000/images/MrMeat/meat%20(5).jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:28:15.815] Browser WARN    Image with src "http://localhost:3000/images/%D0%B5%D1%84%D0%B8%D0%BC%D0%B5%D0%BD%D0%BA%D0%BE%D0%9F%D0%B0%D0%B2%D0%B5%D0%BB/%D0%92_2011_%D0%B3%D0%BE%D0%B4%D1%83,_%D0%BD%D0%B0%D1%87%D0%B0%D0%BB_%D1%81%D0%B2%D0%BE%D1%8E_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%83_%D0%B2_%D0%BC%D1%8F%D1%81%D0%BD%D0%BE%D0%BC_%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%B5_%D0%B2_%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D0%B5_%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE%20(2).jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:28:15.815] Browser WARN    Image with src "http://localhost:3000/images/Oleandr_Belarus/OLEANDR_BELARUS.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:28:15.815] Browser WARN    Image with src "http://localhost:3000/images/gus_market_bg.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:28:19.272] Server  ERROR   D:\GusMarket\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:28:19.285] Server  ERROR    ⨯ TypeError: Cannot convert argument to a ByteString because the character at index 835 has a value of 1050 which is greater than 255.
+[00:28:19.588] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:21.535] Server  ERROR   D:\GusMarket\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:28:21.537] Server  ERROR    ⨯ TypeError: Cannot convert argument to a ByteString because the character at index 835 has a value of 1050 which is greater than 255.
+[00:28:21.718] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:23.813] Browser WARN    Image with src "http://localhost:3000/images/mainCarousell/1.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:28:23.813] Browser WARN    Image with src "http://localhost:3000/images/mainCarousell/1.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:28:23.813] Browser WARN    Image with src "http://localhost:3000/images/zenfood/%D0%9A%D1%82%D0%BE_%D0%BC%D1%8B,_%D1%87%D1%82%D0%BE_%D0%BC%D1%8B%D0%9C%D1%8B_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80_%D0%B8_%D0%90%D0%BD%D0%B0%D1%81%D1%82%D0%B0%D1%81%D0%B8%D1%8F_%D0%94%D0%B2%D0%B0_%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%D0%B0,_%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B5_%D0%BD%D0%B0%D1%88%D0%BB%D0%B8.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:28:23.813] Browser WARN    Image with src "http://localhost:3000/images/%D0%A8%D0%B0%D0%BB%D0%B5%D0%BD%D0%B0%D1%8F%D0%93%D0%B0%D1%81%D0%BF%D0%B0%D0%B4%D0%B0%D1%80%D0%BA%D0%B0/IMG_4619.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:28:23.813] Browser WARN    Image with src "http://localhost:3000/images/%D1%82%D0%B0%D0%BD%D0%B8%D0%BD%D0%A5%D0%BB%D0%B5%D0%B1/tanya.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:28:23.813] Browser WARN    Image with src "http://localhost:3000/images/%D0%BA%D1%83%D0%B7%D1%8C%D0%BC%D0%B0%D0%A4%D1%83%D0%B4/%D0%97%D0%BD%D0%B0%D0%BA%D0%BE%D0%BC%D0%B8%D0%BC_%D0%B2%D0%B0%D1%81_%D1%81_@kuzma_food_%D0%9C%D1%8B_%D1%81%D0%B5%D0%BC%D1%8C%D1%8F_%D0%B8%D0%B7_%D1%82%D1%80%D1%91%D1%85_%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA_%D0%9A%D0%90%D0%A2%D0%AF,_%D0%A1%D0%90%D0%A8%D0%90_%D0%98%20(3).jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:28:23.813] Browser WARN    Image with src "http://localhost:3000/images/%D0%BB%D0%B5%D1%82%D1%83%D1%87%D0%B0%D1%8F%D0%9A%D0%BE%D0%B7%D0%B0/IMG_7476.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:28:23.813] Browser WARN    Image with src "http://localhost:3000/images/MrMeat/meat%20(5).jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:28:23.813] Browser WARN    Image with src "http://localhost:3000/images/%D0%B5%D1%84%D0%B8%D0%BC%D0%B5%D0%BD%D0%BA%D0%BE%D0%9F%D0%B0%D0%B2%D0%B5%D0%BB/%D0%92_2011_%D0%B3%D0%BE%D0%B4%D1%83,_%D0%BD%D0%B0%D1%87%D0%B0%D0%BB_%D1%81%D0%B2%D0%BE%D1%8E_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%83_%D0%B2_%D0%BC%D1%8F%D1%81%D0%BD%D0%BE%D0%BC_%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%B5_%D0%B2_%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D0%B5_%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE%20(2).jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:28:23.813] Browser WARN    Image with src "http://localhost:3000/images/Oleandr_Belarus/OLEANDR_BELARUS.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:28:23.813] Browser WARN    Image with src "http://localhost:3000/images/gus_market_bg.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:28:29.087] Browser WARN    Image with src "http://localhost:3000/images/mainCarousell/2.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:28:29.087] Browser WARN    Image with src "http://localhost:3000/images/mainCarousell/2.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:28:31.940] Browser WARN    Image with src "http://localhost:3000/images/mainCarousell/3.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:28:31.940] Browser WARN    Image with src "http://localhost:3000/images/mainCarousell/3.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:28:38.241] Server  ERROR   D:\GusMarket\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:28:38.242] Server  ERROR    ⨯ TypeError: Cannot convert argument to a ByteString because the character at index 835 has a value of 1050 which is greater than 255.
+[00:28:38.548] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:32.179] Browser WARN    Image with src "/images/mainCarousell/3.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:31:22.457] Server  LOG      ✓ Compiled in 69ms
+[00:31:28.199] Server  LOG      ✓ Compiled in 36ms
+[00:31:28.813] Browser ERROR   ./src/components/Hero.tsx:71:20
+Parsing ecmascript source code failed
+  69 |             className="bg-white/60 backdrop-blur-xl p-5 rounded-3xl shadow flex items-center gap-5 mb-10 max-w-md border border-white/80"
+  70 |           >
+> 71 |             <div></>
+     |                    ^
+  72 |             <div className="w-14 h-14 bg-[#E8F0E0] rounded-2xl flex items-center justify-center">
+  73 |               <Calendar className="text-green-dark" />
+  74 |             </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/Hero.tsx
+    ./src/app/page.tsx
+[00:31:37.294] Server  LOG      ✓ Compiled in 33ms
+[00:31:37.815] Browser ERROR   ./src/components/Hero.tsx:78:24
+Parsing ecmascript source code failed
+  76 |               Пт–Вс: 10:00 – 20:00
+  77 |             </p>
+> 78 |           </motion.div>
+     |                        ^
+> 79 |
+     | ^
+> 80 |           <motion.a
+     | ^^^^^^^^^^^
+  81 |             whileHover={{ y: -3 }}
+  82 |             href="https://yandex.by/maps/-/CPsDr4iJ"
+  83 |             target="_blank"
+
+Expected '</', got 'jsx text (
+
+          )'
+
+Import trace:
+  Server Component:
+    ./src/components/Hero.tsx
+    ./src/app/page.tsx
+[00:31:57.804] Server  LOG      ✓ Compiled in 40ms
+[00:32:01.279] Server  LOG      ✓ Compiled in 39ms
+[00:32:20.638] Server  LOG      ✓ Compiled in 28ms
+[00:32:22.458] Server  LOG      ✓ Compiled in 46ms
+[00:32:24.276] Server  LOG      ✓ Compiled in 31ms
+[00:32:24.820] Browser ERROR   ./src/components/Hero.tsx:74:20
+Parsing ecmascript source code failed
+  72 |               <Calendar className="text-green-dark" />
+  73 |             </div>
+> 74 |             <div></>
+     |                    ^
+  75 |             <p className="font-bold text-green-dark text-xl">
+  76 |               Пт–Вс: 10:00 – 20:00
+  77 |             </p>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/Hero.tsx
+    ./src/app/page.tsx
+[00:32:26.810] Browser ERROR   ./src/components/Hero.tsx:74:20
+Parsing ecmascript source code failed
+  72 |               <Calendar className="text-green-dark" />
+  73 |             </div>
+> 74 |             <div></>
+     |                    ^
+  75 |             <p className="font-bold text-green-dark text-xl">
+  76 |               Пт–Вс: 10:00 – 20:00
+  77 |             </p>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/Hero.tsx
+    ./src/app/page.tsx
+[00:32:30.571] Server  LOG      ✓ Compiled in 44ms
+[00:32:30.819] Browser ERROR   ./src/components/Hero.tsx:81:24
+Parsing ecmascript source code failed
+  79 |               Пт–Вс: 10:00 – 20:00
+  80 |             </p>
+> 81 |           </motion.div>
+     |                        ^
+> 82 |
+     | ^
+> 83 |           <motion.a
+     | ^^^^^^^^^^^
+  84 |             whileHover={{ y: -3 }}
+  85 |             href="https://yandex.by/maps/-/CPsDr4iJ"
+  86 |             target="_blank"
+
+Expected '</', got 'jsx text (
+
+          )'
+
+Import trace:
+  Server Component:
+    ./src/components/Hero.tsx
+    ./src/app/page.tsx
+[00:32:40.647] Server  LOG      ✓ Compiled in 74ms
+[00:32:46.190] Server  LOG      ✓ Compiled in 39ms
+[00:33:01.563] Server  LOG      ✓ Compiled in 44ms
+[00:33:03.133] Server  LOG      ✓ Compiled in 53ms
+[00:33:05.079] Server  LOG      ✓ Compiled in 56ms
+[00:33:19.686] Server  LOG      ✓ Compiled in 27ms
+[00:33:29.889] Server  LOG      ✓ Compiled in 50ms
+[00:35:11.402] Server  LOG      ✓ Compiled in 33ms
+[00:35:23.004] Server  LOG      ✓ Compiled in 35ms
+[00:35:51.204] Server  LOG      ✓ Compiled in 35ms
+[00:35:54.480] Server  LOG      ✓ Compiled in 32ms
